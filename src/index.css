@@ -5,7 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: greenyellow ;
+ background: hsla(225, 79%, 63%, 1);
+
+background: linear-gradient(90deg, hsla(225, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 88%);
+
+background: -moz-linear-gradient(90deg, hsla(225, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 88%);
+
+background: -webkit-linear-gradient(90deg, hsla(225, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 88%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#577ceb", endColorstr="#aefb2a", GradientType=1 );
 }
 
 code {
